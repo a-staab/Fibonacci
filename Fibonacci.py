@@ -19,7 +19,7 @@ def fib(n):
 
     # Check for valid input
     if not n >= 0:
-        raise ValueError("'n' must be greater than 0.")
+        raise ValueError("'n' must be greater than or equal to 0.")
 
     # Recursively compute value
     if n == 0 or n == 1:
